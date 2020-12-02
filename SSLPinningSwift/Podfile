@@ -1,0 +1,8 @@
+ project '../SSLPinningSwift.xcodeproj'
+platform :ios, '13.0'
+
+target 'SSLPinningSwift' do
+  use_frameworks!
+  pod 'GoogleSignIn'
+
+end
